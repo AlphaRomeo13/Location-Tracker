@@ -14,17 +14,33 @@ class LaunchScreenViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         showActivityIndicator()
+
+
+        self.view.addSubview(view as! UIView)
         self.performSelector(#selector(LaunchScreenViewController.showAnotherViewController), withObject: nil, afterDelay: 5)
-//        let delayInSeconds:Int64 = 1000
-//        let popTime: dispatch_time_t = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds)
-//        dispatch_after(popTime, dispatch_get_main_queue()) {
-//            self.performSegueWithIdentifier("splashScreenSegue", sender: self)
-//        }
+
+    }
+
+    override func loadView() {
+        super.loadView()
+        
+        let view = NSBundle.mainBundle().loadNibNamed("LaunchScreen", owner: self, options: nil)[0]
+                let widthConstraint:NSLayoutConstraint = NSLayoutConstraint(item: view, attribute: .Width, relatedBy: .Equal, toItem: self.view, attribute: .Width, multiplier: 1, constant: 0)
+                let heightConstraint:NSLayoutConstraint = NSLayoutConstraint(item: view, attribute: .Height, relatedBy: .Equal, toItem: self.view, attribute: .Height, multiplier: 1, constant: 0)
+                let xConstraint:NSLayoutConstraint = NSLayoutConstraint(item: view, attribute: .CenterX, relatedBy: .Equal, toItem: self.view, attribute: .CenterX, multiplier: 1, constant: 0)
+                let yConstraint:NSLayoutConstraint = NSLayoutConstraint(item: view, attribute: .CenterY, relatedBy: .Equal, toItem: self.view, attribute: .CenterY, multiplier: 1, constant: 0)
+                self.view.addConstraint(widthConstraint)
+                self.view.addConstraint(heightConstraint)
+                self.view.addConstraint(xConstraint)
+                self.view.addConstraint(yConstraint)
+        self.view.translatesAutoresizingMaskIntoConstraints = false
     }
 
     func showAnotherViewController()
     {
-    self.performSegueWithIdentifier("splashScreenSegue", sender: self)
+//    self.performSegueWithIdentifier("splashScreenSegue", sender: self)
+        let viewController = ViewController()
+        self.presentViewController(viewController, animated: true, completion: nil)
     }
 
     func showActivityIndicator()

@@ -46,6 +46,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     func locationManager(manager: CLLocationManager, monitoringDidFailForRegion region: CLRegion?, withError error: NSError) {
 
     }
+    func locationManager(manager: CLLocationManager, didDetermineState state: CLRegionState, forRegion region: CLRegion) {
+
+    }
+
+    // MARK: - LOCATION MANAGER BEACONS DELEGATES
+    func locationManager(manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], inRegion region: CLBeaconRegion) {
+
+    }
+
+    func locationManager(manager: CLLocationManager, rangingBeaconsDidFailForRegion region: CLBeaconRegion, withError error: NSError) {
+        
+    }
 
     // MARK: - LOCATION MANAGER HEADING DELEGATES
 
@@ -83,6 +95,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         }
     }
 
+    func locationManagerDidPauseLocationUpdates(manager: CLLocationManager) {
+
+    }
+    func locationManagerDidResumeLocationUpdates(manager: CLLocationManager) {
+
+    }
+    func locationManager(manager: CLLocationManager, didUpdateToLocation newLocation: CLLocation, fromLocation oldLocation: CLLocation) {
+
+    }
+
+    func locationManager(manager: CLLocationManager, didVisit visit: CLVisit) {
+
+    }
+    func locationManager(manager: CLLocationManager, didFinishDeferredUpdatesWithError error: NSError?) {
+
+    }
+    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+
+    }
+
     // MARK: - MAPVIEW DELEGATES
     func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
         if overlay is MKPolyline {
@@ -116,6 +148,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 
 }
