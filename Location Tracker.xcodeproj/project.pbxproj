@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00377BFD1D3DE6960030ECEA /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377BFB1D3DE6960030ECEA /* LaunchScreen.swift */; };
+		00377BFE1D3DE6960030ECEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00377BFC1D3DE6960030ECEA /* LaunchScreen.xib */; };
+		00377C001D3DE6F40030ECEA /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377BFF1D3DE6F40030ECEA /* LaunchScreenViewController.swift */; };
+		00377C131D3DE9130030ECEA /* CALayer+DTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C051D3DE9130030ECEA /* CALayer+DTI.swift */; };
+		00377C141D3DE9130030ECEA /* DTIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C071D3DE9130030ECEA /* DTIActivityIndicatorView.swift */; };
+		00377C151D3DE9130030ECEA /* DTIAnimChasingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C081D3DE9130030ECEA /* DTIAnimChasingDots.swift */; };
+		00377C161D3DE9130030ECEA /* DTIAnimDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C091D3DE9130030ECEA /* DTIAnimDoubleBounce.swift */; };
+		00377C171D3DE9130030ECEA /* DTIAnimProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0A1D3DE9130030ECEA /* DTIAnimProtocol.swift */; };
+		00377C181D3DE9130030ECEA /* DTIAnimPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0B1D3DE9130030ECEA /* DTIAnimPulse.swift */; };
+		00377C191D3DE9130030ECEA /* DTIAnimRotatingPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0C1D3DE9130030ECEA /* DTIAnimRotatingPlane.swift */; };
+		00377C1A1D3DE9130030ECEA /* DTIAnimSpotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0D1D3DE9130030ECEA /* DTIAnimSpotify.swift */; };
+		00377C1B1D3DE9130030ECEA /* DTIAnimWanderingCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0E1D3DE9130030ECEA /* DTIAnimWanderingCubes.swift */; };
+		00377C1C1D3DE9130030ECEA /* DTIAnimWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C0F1D3DE9130030ECEA /* DTIAnimWave.swift */; };
+		00377C1D1D3DE9130030ECEA /* DTIAnimWp8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C101D3DE9130030ECEA /* DTIAnimWp8.swift */; };
+		00377C1E1D3DE9130030ECEA /* DTIIndicatorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00377C111D3DE9130030ECEA /* DTIIndicatorStyle.swift */; };
+		00377C1F1D3DE9130030ECEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00377C121D3DE9130030ECEA /* Info.plist */; };
 		00AEFD731C96DC6700C945C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AEFD721C96DC6700C945C6 /* AppDelegate.swift */; };
 		00AEFD751C96DC6700C945C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AEFD741C96DC6700C945C6 /* ViewController.swift */; };
 		00AEFD781C96DC6700C945C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AEFD761C96DC6700C945C6 /* Main.storyboard */; };
@@ -35,6 +51,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00377BFB1D3DE6960030ECEA /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		00377BFC1D3DE6960030ECEA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		00377BFF1D3DE6F40030ECEA /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		00377C051D3DE9130030ECEA /* CALayer+DTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+DTI.swift"; sourceTree = "<group>"; };
+		00377C061D3DE9130030ECEA /* DTIActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTIActivityIndicator.h; sourceTree = "<group>"; };
+		00377C071D3DE9130030ECEA /* DTIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIActivityIndicatorView.swift; sourceTree = "<group>"; };
+		00377C081D3DE9130030ECEA /* DTIAnimChasingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimChasingDots.swift; sourceTree = "<group>"; };
+		00377C091D3DE9130030ECEA /* DTIAnimDoubleBounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimDoubleBounce.swift; sourceTree = "<group>"; };
+		00377C0A1D3DE9130030ECEA /* DTIAnimProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimProtocol.swift; sourceTree = "<group>"; };
+		00377C0B1D3DE9130030ECEA /* DTIAnimPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimPulse.swift; sourceTree = "<group>"; };
+		00377C0C1D3DE9130030ECEA /* DTIAnimRotatingPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimRotatingPlane.swift; sourceTree = "<group>"; };
+		00377C0D1D3DE9130030ECEA /* DTIAnimSpotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimSpotify.swift; sourceTree = "<group>"; };
+		00377C0E1D3DE9130030ECEA /* DTIAnimWanderingCubes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimWanderingCubes.swift; sourceTree = "<group>"; };
+		00377C0F1D3DE9130030ECEA /* DTIAnimWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimWave.swift; sourceTree = "<group>"; };
+		00377C101D3DE9130030ECEA /* DTIAnimWp8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIAnimWp8.swift; sourceTree = "<group>"; };
+		00377C111D3DE9130030ECEA /* DTIIndicatorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTIIndicatorStyle.swift; sourceTree = "<group>"; };
+		00377C121D3DE9130030ECEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00AEFD6F1C96DC6700C945C6 /* Location Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AEFD721C96DC6700C945C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00AEFD741C96DC6700C945C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +109,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00377C041D3DE9130030ECEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00377C051D3DE9130030ECEA /* CALayer+DTI.swift */,
+				00377C061D3DE9130030ECEA /* DTIActivityIndicator.h */,
+				00377C071D3DE9130030ECEA /* DTIActivityIndicatorView.swift */,
+				00377C081D3DE9130030ECEA /* DTIAnimChasingDots.swift */,
+				00377C091D3DE9130030ECEA /* DTIAnimDoubleBounce.swift */,
+				00377C0A1D3DE9130030ECEA /* DTIAnimProtocol.swift */,
+				00377C0B1D3DE9130030ECEA /* DTIAnimPulse.swift */,
+				00377C0C1D3DE9130030ECEA /* DTIAnimRotatingPlane.swift */,
+				00377C0D1D3DE9130030ECEA /* DTIAnimSpotify.swift */,
+				00377C0E1D3DE9130030ECEA /* DTIAnimWanderingCubes.swift */,
+				00377C0F1D3DE9130030ECEA /* DTIAnimWave.swift */,
+				00377C101D3DE9130030ECEA /* DTIAnimWp8.swift */,
+				00377C111D3DE9130030ECEA /* DTIIndicatorStyle.swift */,
+				00377C121D3DE9130030ECEA /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		00AEFD661C96DC6700C945C6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +155,15 @@
 			children = (
 				00AEFD721C96DC6700C945C6 /* AppDelegate.swift */,
 				00AEFD741C96DC6700C945C6 /* ViewController.swift */,
+				00377BFF1D3DE6F40030ECEA /* LaunchScreenViewController.swift */,
+				00377BFB1D3DE6960030ECEA /* LaunchScreen.swift */,
+				00377BFC1D3DE6960030ECEA /* LaunchScreen.xib */,
 				00AEFDA01C96E0B300C945C6 /* ViewController.xib */,
 				00AEFD761C96DC6700C945C6 /* Main.storyboard */,
 				00AEFD791C96DC6700C945C6 /* Assets.xcassets */,
 				00AEFD7B1C96DC6700C945C6 /* LaunchScreen.storyboard */,
 				00AEFD7E1C96DC6700C945C6 /* Info.plist */,
+				00377C041D3DE9130030ECEA /* Source */,
 			);
 			path = "Location Tracker";
 			sourceTree = "<group>";
@@ -232,7 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00377BFE1D3DE6960030ECEA /* LaunchScreen.xib in Resources */,
 				00AEFD7D1C96DC6700C945C6 /* LaunchScreen.storyboard in Resources */,
+				00377C1F1D3DE9130030ECEA /* Info.plist in Resources */,
 				00AEFD7A1C96DC6700C945C6 /* Assets.xcassets in Resources */,
 				00AEFDA11C96E0B300C945C6 /* ViewController.xib in Resources */,
 				00AEFD781C96DC6700C945C6 /* Main.storyboard in Resources */,
@@ -260,8 +320,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00377C1D1D3DE9130030ECEA /* DTIAnimWp8.swift in Sources */,
+				00377C1E1D3DE9130030ECEA /* DTIIndicatorStyle.swift in Sources */,
+				00377C181D3DE9130030ECEA /* DTIAnimPulse.swift in Sources */,
 				00AEFD751C96DC6700C945C6 /* ViewController.swift in Sources */,
+				00377C161D3DE9130030ECEA /* DTIAnimDoubleBounce.swift in Sources */,
+				00377C131D3DE9130030ECEA /* CALayer+DTI.swift in Sources */,
 				00AEFD731C96DC6700C945C6 /* AppDelegate.swift in Sources */,
+				00377C141D3DE9130030ECEA /* DTIActivityIndicatorView.swift in Sources */,
+				00377C001D3DE6F40030ECEA /* LaunchScreenViewController.swift in Sources */,
+				00377C1A1D3DE9130030ECEA /* DTIAnimSpotify.swift in Sources */,
+				00377C151D3DE9130030ECEA /* DTIAnimChasingDots.swift in Sources */,
+				00377C171D3DE9130030ECEA /* DTIAnimProtocol.swift in Sources */,
+				00377C1B1D3DE9130030ECEA /* DTIAnimWanderingCubes.swift in Sources */,
+				00377C1C1D3DE9130030ECEA /* DTIAnimWave.swift in Sources */,
+				00377C191D3DE9130030ECEA /* DTIAnimRotatingPlane.swift in Sources */,
+				00377BFD1D3DE6960030ECEA /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
