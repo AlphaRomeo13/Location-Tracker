@@ -18,7 +18,7 @@ class LaunchScreen: UIView {
 
     func showActivityIndicator()
     {
-        activityIndicatorView.indicatorColor = UIColor.greenColor()
+        activityIndicatorView.indicatorColor = UIColor.whiteColor()
         activityIndicatorView.indicatorStyle = DTIIndicatorStyle.convInv(DTIIndicatorStyle.chasingDots)
         activityIndicatorView.startActivity()
     }

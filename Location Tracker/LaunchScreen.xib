@@ -6,43 +6,55 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LaunchScreen" customModule="Location_Tracker" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+        <view contentMode="scaleToFill" id="y9V-QT-0FC" customClass="LaunchScreen" customModule="Location_Tracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="DEEPAK AHUJA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ota-5Y-qLe">
-                    <rect key="frame" x="21" y="206" width="278" height="68"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="DEEPAK AHUJA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ota-5Y-qLe">
+                            <rect key="frame" x="21" y="250" width="278" height="68"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="278" id="26q-PP-TJY"/>
+                                <constraint firstAttribute="height" constant="68" id="MTg-8a-bzf"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="278" id="Uzq-FT-HGu"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="Y38-2w-6fg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="33"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZ9-jx-tg7" customClass="DTIActivityIndicatorView" customModule="Location_Tracker" customModuleProvider="target">
+                            <rect key="frame" x="124" y="331" width="73" height="72"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="72" id="uPh-Ch-cTB"/>
+                                <constraint firstAttribute="width" constant="73" id="vtJ-kd-Yfj"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="278" id="26q-PP-TJY"/>
-                        <constraint firstAttribute="height" constant="68" id="MTg-8a-bzf"/>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="278" id="Uzq-FT-HGu"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="Y38-2w-6fg"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="33"/>
-                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZ9-jx-tg7" customClass="DTIActivityIndicatorView" customModule="Location_Tracker" customModuleProvider="target">
-                    <rect key="frame" x="124" y="287" width="73" height="72"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="72" id="uPh-Ch-cTB"/>
-                        <constraint firstAttribute="width" constant="73" id="vtJ-kd-Yfj"/>
+                        <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="89B-fB-Yxc"/>
+                        <constraint firstItem="LZ9-jx-tg7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ozd-rn-hU0"/>
+                        <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="b14-0f-McF"/>
+                        <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sVP-04-NcU"/>
+                        <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ucl-FU-ybn"/>
+                        <constraint firstItem="LZ9-jx-tg7" firstAttribute="top" secondItem="Ota-5Y-qLe" secondAttribute="bottom" constant="13" id="wy2-rS-PQJ"/>
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="89B-fB-Yxc"/>
-                <constraint firstItem="LZ9-jx-tg7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ozd-rn-hU0"/>
-                <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="b14-0f-McF"/>
-                <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sVP-04-NcU"/>
-                <constraint firstItem="Ota-5Y-qLe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ucl-FU-ybn"/>
-                <constraint firstItem="LZ9-jx-tg7" firstAttribute="top" secondItem="Ota-5Y-qLe" secondAttribute="bottom" constant="13" id="wy2-rS-PQJ"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="width" secondItem="y9V-QT-0FC" secondAttribute="width" id="3ai-58-4Hl"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="centerX" secondItem="y9V-QT-0FC" secondAttribute="centerX" id="56p-B9-mDk"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="height" secondItem="y9V-QT-0FC" secondAttribute="height" id="KCe-a6-g7E"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="centerY" secondItem="y9V-QT-0FC" secondAttribute="centerY" id="mCU-kh-Vix"/>
             </constraints>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
-                <outlet property="activityIndicatorView" destination="LZ9-jx-tg7" id="zSS-Ru-tGR"/>
+                <outlet property="activityIndicatorView" destination="LZ9-jx-tg7" id="8Da-9N-6Vo"/>
             </connections>
         </view>
     </objects>
